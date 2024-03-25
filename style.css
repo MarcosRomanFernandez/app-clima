@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(85deg, rgb(50, 60, 130), rgb(20, 100, 120));
+  }
+.contenedor {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 10px 150px;
+  background-color: rgb(50, 70, 210);
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+h1 {
+  color: #fff;
+  }
+h2 {
+  color: #fff;
+ }
+p {
+  color: #fcfcfc;
+ }
+input[type="text"] {
+  display: inline;
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(20, 20, 130);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s ease;
+  }
+.contenedor:hover,
+input[type="text"]:hover{
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  }
+button:hover{
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: rgb(33, 92, 219);
+  }
+#datosClima {
+  margin-top: 20px;
+  font-size: 18px;
+  }
+.img-clima{
+  box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  }
